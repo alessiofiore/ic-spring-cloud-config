@@ -1,4 +1,4 @@
-package com.example.springcloudconfigclient;
+package com.example.config.client;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;

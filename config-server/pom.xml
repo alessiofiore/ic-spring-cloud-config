@@ -8,7 +8,7 @@
         <version>2.2.5.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
+    <groupId>com.example.config</groupId>
     <artifactId>config-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>config-server</name>
@@ -51,6 +51,7 @@
     </dependencyManagement>
 
     <build>
+        <finalName>config-server</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

@@ -13,5 +13,7 @@ Basic Spring Cloud Config example for ItalianCoders article
     cd config-client
     mvn install
     java -jar -Dspring.profiles.active=dev target/config-client.jar
+
 OR
+
     java -jar -Dspring.profiles.active=prod target/config-client.jar
